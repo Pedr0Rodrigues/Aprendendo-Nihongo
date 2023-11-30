@@ -1,0 +1,53 @@
+/* src/styles.css */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #f9f4e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #f3eed9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .label-container {
+    margin-bottom: 200px;
+  }
+  
+  label {
+    font-size: 28px;
+    display: block;
+    font-style: bold;
+  }
+  
+  input {
+    padding: 15px;
+    font-size: 24px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .output {
+    margin-top: 20px;
+  }
+  
+  strong {
+    font-size: 28px;
+    color: #2d3c49;
+  }
+
+  footer {
+    margin-top: 200px;
+    font-size: 10px;
+    color: #555; /* Cor mais sutil */
+    text-align: center;
+  }
